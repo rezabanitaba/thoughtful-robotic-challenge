@@ -1,3 +1,4 @@
+from main import sort
 
 def test_sort():
     # Standard package
@@ -23,4 +24,5 @@ def test_sort():
 
     print("All tests OK")
 
-test_sort()
+if __name__ == "__main__":
+    test_sort()
